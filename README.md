@@ -36,6 +36,6 @@
 | Siddhant Kumar [(@siddhantdante)](https://github.com/siddhantdante) | Full Stack |
 | Anjali Sharma [(@AnjaliSharma1234)](https://github.com/AnjaliSharma1234) | Front End  |
 | Monica Rajput [(@monika0123)](https://github.com/monika0123) | Data Science  |
-| Ashutosh Singh [(@ashutosh2205x)](https://github.com/ashutosh2205x) | Data Science  |
+| Ashutosh Singh [(@ashutoshsingh19)](https://github.com/ashutoshsingh19) | Data Science  |
 
 [![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/AnjaliSharma1234/)
