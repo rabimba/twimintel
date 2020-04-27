@@ -13,7 +13,7 @@ def home():
 def json_example():
     req_data = request.get_json()
     #json is formatted as list, so we choose 1st element from list
-    url_n1 = req_data[0]  
+    url_n1 = req_data 
     return '''
            The 1st url is: {}
            '''.format(url_n1) 
