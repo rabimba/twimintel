@@ -9,7 +9,7 @@
 ### Tech Stack
 
 * Frontend: HTML5, CSS3, JavaScript, ReactJS
-* Backend Processing: API, NLP
+* Backend Processing: API, NLP, Python,Dash, Flask
 
 ### Approach
 ![approach](approach.png)
