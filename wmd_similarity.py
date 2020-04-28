@@ -2,7 +2,6 @@ import warnings
 import numpy
 import gensim
 import pandas as pd
-import re
 from gensim import corpora, models
 from gensim.models import Word2Vec 
 import nltk
