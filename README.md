@@ -13,6 +13,7 @@
 
 ### Approach
 ![approach](approach.png)
+![approach](twimintel_viz.jpg)
 
 ## Contribution Guidelines 
 
