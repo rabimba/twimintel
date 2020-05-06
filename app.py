@@ -4,6 +4,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output,State
 import dash_table
 import sqlite3
+import pandas
 
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
