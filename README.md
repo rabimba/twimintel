@@ -14,6 +14,9 @@
 ### Approach
 ![approach](approach.png)
 
+
+![approach](twimintel_viz.jpg)
+
 ## Contribution Guidelines 
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=git&logoColor=white)](https://github.com/twimbit) [![twimintel](https://img.shields.io/badge/Author-@amanintech-gray.svg?colorA=gray&colorB=dodgerblue&logo=github)](https://github.com/twimbit) 
