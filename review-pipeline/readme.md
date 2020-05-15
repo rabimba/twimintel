@@ -31,13 +31,47 @@ This pipeline will provide a topic identification procedure thats combines both 
 - Implement topic identification models
 - Deploy in docker / aws / etc
 
-![Arch](datapipe.png)
+![Arch](images/datapipe.png)
 
 
+## Methods
 
+Common methods for topic classification includes using LDA (latent Dirichlet allocation) as a hierarchical Bayesian model.
 
++ Latent Dirichlet Allocation
 
++ Embedding + Clustering
 
+For our text we will have the following limitation with LDA
+- if the text corpus is small, LDA struggles to find proper topics in short text
+- the review texts might noy have similar topic making it hard for LDA to classify them
+- LDA is word frequency based. Whereas our reviews are mostly context based. LDA has no way of preserving context
+
+Or we can use sentence embedding models like BERT. BERT will embed the text into a vector space to capture contextual meaning. 
+
+## Our Architecture
+
+We will leverage both bag pf words (LDA) and contextual informtion (BERT). The model looks like below
+
+![Model](images/model.png)
+
+The model leverages both bag-of-words and contextual information by including both the LDA topic probabilities and the sentence embeddings.
+
+Here we 
+
++ take the information from LDA probabilistic topic assignment (`v_1`) and sentence embeddings (`v_2`)
++ concatenate `\lambda * v_1` and `v_2` to get `v_{full}`
++ learn the latent space representation `v_{latent}` of by autoencoder
++ implement clustering on the latent space representations.
+
+## Result and Evluation
+
+DONE.
+Need to write
+
+## Model Deep Dive 
+
+WIP. Need to write
 
  [1]: https://arxiv.org/abs/1810.04805
  [2]: https://www.researchgate.net/publication/335339697_A_Detailed_Survey_on_Topic_Modeling_for_Document_and_Short_Text_Data
