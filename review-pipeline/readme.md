@@ -73,5 +73,9 @@ Need to write
 
 WIP. Need to write
 
+## Future Work
+
+Evaluate if using _Roberta_ produces and impprovement over Bert.
+
  [1]: https://arxiv.org/abs/1810.04805
  [2]: https://www.researchgate.net/publication/335339697_A_Detailed_Survey_on_Topic_Modeling_for_Document_and_Short_Text_Data
