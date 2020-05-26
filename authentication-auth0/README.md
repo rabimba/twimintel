@@ -1,0 +1,10 @@
+## Authentication example for Chrome Extension for twimbit auth0
+## Getting started
+
+Chrome extensions are packaged as `.crx` files for distribution but may be loaded "unpacked" for development. For more information on how to load an unpacked extension, see the [Chrome extension docs](https://developer.chrome.com/extensions/getstarted#unpacked).
+
+
+
+## License
+
+This project is licensed under the MIT license. 
