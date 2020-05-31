@@ -10,6 +10,10 @@ You will need to do this to get the app id from chrome extension manager. The ex
 
 _This will change when we actually publish it to Chrome Store_
 
+### In action
+
+![auth0](auth0.gif)
+
 #### Whitelist Callback URL
 
 In the **Allowed Callback URLs** section, whitelist your callback URL.
@@ -40,3 +44,4 @@ AUTH0_DOMAIN: 'YOUR_AUTH0_DOMAIN',
 AUTH0_CLIENT_ID: 'YOUR_AUTH0_CLIENT_ID',
 };
 ```
+
